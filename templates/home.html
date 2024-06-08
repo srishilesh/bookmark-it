@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bookmark it!</title>
+    </head>
+    <body>
+        <div id="home-container">
+            <h2>Bookmark it!</h2>
+            <div id="bookmark-form">
+                <form action="http://localhost:5000/" method="post">
+                    <input type="url" name="url">
+                    <input type="submit" value="submit">
+                </form>
+            </div>
+            <div id="bookmark-list">
+                <form action="http://localhost:5000/display" method="get">
+                    <input type="submit" value="display">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
